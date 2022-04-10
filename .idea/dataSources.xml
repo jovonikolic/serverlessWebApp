@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="testDatenbank@testdatenbank.database.windows.net" uuid="9e0e8ff7-af3e-45e3-a5e7-4262c1a93593">
-      <driver-ref>azure.ms</driver-ref>
+    <data-source source="LOCAL" name="@mysqldatabasebac1.mysql.database.azure.com" uuid="0b328ff3-cf3e-4739-97e9-7391f41f2308">
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://testdatenbank.database.windows.net:1433;database=testDatenbank</jdbc-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysqldatabasebac1.mysql.database.azure.com:3306/</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
